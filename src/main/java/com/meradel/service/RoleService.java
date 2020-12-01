@@ -5,6 +5,6 @@ import com.meradel.dto.UserDTO;
 
 import java.util.List;
 
-public interface RoleService extends CrudService<RoleService,Long> {
+public interface RoleService extends CrudService<RoleDTO,Long> {
 
 }

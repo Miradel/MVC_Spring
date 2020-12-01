@@ -9,9 +9,15 @@ public interface CrudService<T,ID> {
      */
 
     List<T> findAll();
-    T findByID(ID id);
+
+    T findById(ID id);
+
     void delete(T object);
+
     void deleteById(ID id);
-    T save(T object);
+
+    T save(T Object);
+
+    void update(T object);
 
 }
