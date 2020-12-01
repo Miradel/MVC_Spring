@@ -2,7 +2,7 @@ package com.meradel.enums;
 
 public enum Gender {
 
-    Male("male"), Female("Female");
+    MALE("male"), FEMALE("Female");
 
     private final String value ;
 
